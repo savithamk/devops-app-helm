@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: savithamk/devops-app
+  tag: 8
+
+imageCredentials:
+  name: dockerhub
+  registry: https://index.docker.io/v1/
+  username: savithamk
+  password: dckr_pat_nogaZxMZmRLQqMkNCStkJ2E7uuQ
+
+
+service:
+  port: 80
